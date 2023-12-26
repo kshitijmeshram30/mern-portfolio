@@ -7,7 +7,7 @@ import Techstack from "./pages/Techstack/Techstack";
 import WorkExp from "./pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
-import Tada from "react-reveal/Tada";
+import Fade from 'react-reveal/Fade';
 import MobileNav from "./components/MobileNav/MobileNav";
 function App() {
   const [theme] = useTheme();
@@ -25,9 +25,9 @@ function App() {
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">
-          <Tada>
+          <Fade>
             <h4 className="text-center">Made With ❤️ Kshitij &copy; 2023</h4>
-          </Tada>
+          </Fade>
         </div>
       </div>
       <ScrollToTop
